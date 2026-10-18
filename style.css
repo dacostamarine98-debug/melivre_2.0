@@ -1,1 +1,51 @@
+/* ==============================
+   1. Variables du site
+   ============================== */
 
+:root {
+  --color-cream: #fff8ed;
+  --color-forest: #214b3f;
+  --color-coral: #e88073;
+  --color-lilac: #c7b4df;
+  --color-gold: #b68a43;
+
+  --color-background: var(--color-cream);
+  --color-text: var(--color-forest);
+
+  --font-body: Georgia, "Times New Roman", serif;
+  --content-max-width: 1200px;
+}
+
+/* ==============================
+   2. Base commune
+   ============================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: 5px;
+}
