@@ -221,3 +221,75 @@ a {
    background-color: var(--color-plum);
    color: var(--color-cream);
 }
+
+/* ==============================
+   6. Envies de lecture
+   ============================== */
+
+.reading-moods {
+   background-color: var(--color-forest);
+   color: var(--color-cream);
+}
+
+.reading-moods__inner {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+   max-width: var(--content-max-width);
+   margin: 0 auto;
+   padding: 1.5rem 2rem;
+}
+
+.reading-moods__title {
+   margin: 0;
+   font-family: var(--font-heading);
+   font-size: 1.35rem;
+   font-weight: 400;
+   line-weight: 1.3;
+}
+
+.reading-moods__list {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 0.75rem;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.mood-link {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 48px;
+   padding: 0.75rem 1.25rem;
+   border-radius: 999px;
+   color: var(--color-plum);
+   font-size: 0.95rem;
+   text-align: center;
+   text-decoration: none;
+}
+
+.mood-link:hover {
+   text-decoration: underline;
+   text-underline-offset: 0.25rem;
+}
+
+.mood-link--lilac {
+   background-color: var(--color-lilac);
+}
+
+.mood-link--coral {
+   background-color: var(--color-coral);
+}
+
+.mood-link--gold {
+   background-color: var(--color-gold);
+}
+
+.mood-link--cream {
+   background-cream: var(--color-cream);
+}
