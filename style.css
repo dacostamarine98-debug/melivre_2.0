@@ -173,6 +173,22 @@ a {
    line-height: 1.5;
 }
 
+.hero__actions {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 1rem 1.5rem;
+}
+
+.hero__explore-link {
+   padding-block: 0.75rem;
+   text-underline-offset: 0.3rem;
+}
+
+.hero__explore-link:hover {
+   text-decoration-thickness: 2px;
+}
+
 .hero__illustration {
    width: 100%;
 }
