@@ -141,6 +141,7 @@ a {
    background-color: var(--color-lilac);
    border-top-left-radius: 100% 85%;
    z-index: -1;
+}
 
 .hero__eyebrow {
    margin: 0 0 1rem;
