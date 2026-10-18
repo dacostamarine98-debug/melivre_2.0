@@ -227,8 +227,36 @@ a {
    ============================== */
 
 .reading-moods {
+   position: relative;
+   isolation: isolate;
+   overflow: hidden;
    background-color: var(--color-forest);
    color: var(--color-cream);
+}
+
+/* Feuillages décoratifs du bandeau */
+.reading-moods::before,
+.reading-moods::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   width: 90px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   pointer-events: none;
+   z-index: -1;
+}
+
+.reading-moods::before {
+   left: -20px;
+   background-image: url("decoration-feuillage-2.png");
+}
+
+.reading-moods::after {
+   right: -20px;
+   background-image: url("decoration-feuillage.png");
 }
 
 .reading-moods__inner {
