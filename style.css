@@ -13,7 +13,9 @@
   --color-background: var(--color-cream);
   --color-text: var(--color-plum);
 
-  --font-body: Georgia, "Times New Roman", serif;
+  --font-body: "DM Sans", sans-serif;
+   --font-heading: "Lora", Georgia, serif;
+   --font-handwriting: "Allura", cursive;
   --content-max-width: 1200px;
 }
 
@@ -86,12 +88,16 @@ a {
 .site-brand__name {
    font-size: 2rem;
    line-height: 1.2;
+   font-family: var(--font-heading);
+   font-weight: 600;
 }
 
 .site-brand__tagline {
-   margin-top: 0.35rem;
-   font-size: 0.95rem;
-   font-style: italic;
+   margin-top: 0.15rem;
+   color: #8a622b;
+   font-family: var(--font-handwriting);
+   font-size: 1.5rem;
+   line-height: 1.2;
 }
 
 .main-nav__list {
@@ -154,9 +160,10 @@ a {
 .hero__title {
    margin: 0;
    font-size: clamp(2.3rem, 4.2vw, 4rem);
-   font-weight: normal;
+   font-weight: 600;
    line-height: 1.08;
    letter-spacing: -0.03em;
+   font-family: var(--font-heading);
 }
 
 .hero__description {
