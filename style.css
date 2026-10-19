@@ -530,7 +530,7 @@ a {
 
 .book-details__layout {
    display: grid;
-   grid-template-columns: 300px minmax(0, 1fr);
+   grid-template-columns: 360px minmax(0, 1fr);
    align-items: start;
    gap: 3rem;
    padding: 2rem;
@@ -675,7 +675,7 @@ a {
    position: absolute;
    top: 0.2rem;
    left: 0;
-   width: 22px;
-   height: 22px;
+   width: 28px;
+   height: 28px;
    background: url("fiche-etoile-doree-v2.png") center / contain no-repeat;
 }
