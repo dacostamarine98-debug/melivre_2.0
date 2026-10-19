@@ -542,6 +542,8 @@ a {
 .book-details__cover {
    width: 100%;
    height: auto;
+   border-radius: 0.5rem;
+   box-shadow: 0 8px 20px rgb(37 16 39 / 15%);
 }
 
 .book-details__content {
