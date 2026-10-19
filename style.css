@@ -345,12 +345,12 @@ a {
 .genres__heading {
    display: flex;
    align-items: center;
-   justify-items: space-between;
+   justify-content: space-between;
    gap: 2rem;
    margin-bottom: 1.5rem;
 }
 
-.genres-title {
+.genres__title {
    margin: 0;
    font-family: var(--font-heading);
    font-size: 2rem;
@@ -364,7 +364,7 @@ a {
    font-size: 0.95rem;
 }
 
-.genres-grid {
+.genres__grid {
    display: grid;
    grid-template-columns: repeat(4, minmax(0, 1fr));
    gap: 1rem;
@@ -378,7 +378,7 @@ a {
    scroll-margin-top: 2rem;
 }
 
-.genres-card {
+.genre-card {
    position: relative;
    isolation: isolate;
    min-height: 250px;
