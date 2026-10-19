@@ -513,3 +513,54 @@ a {
    height: 350px;
    object-fit: contain;
 }
+
+/* Fiches des livres */
+.book-details {
+   max-width: var(--content-max-width);
+   margin: 0 auto;
+   padding: 2rem;
+}
+
+.book-details__back {
+   display: inline-block;
+   margin-bottom: 2rem;
+   padding-block: 0.5rem;
+   text-underline-offset: 0.3rem;
+}
+
+.book-details__layout {
+   display: grid;
+   grid-template-columns: 300px minmax(0, 1fr);
+   align-items: start;
+   gap: 3rem;
+}
+
+.book-details__cover {
+   width: 100%;
+   height: auto;
+}
+
+.book-details__content {
+   min-width: 0;
+   max-width: 65ch;
+}
+
+.book-details__title {
+   margin: 0 0 1rem;
+   font-family: var(--font-heading);
+   font-size: 2.5rem;
+   font-weight: 600;
+   line-height: 1.15;
+}
+
+.book-details__author {
+   margin: 0 0 1.5rem;
+   font-size: 1.2rem;
+}
+
+.book-details__content h2 {
+   margin: 2rem 0 1rem;
+   font-family: var(--font-heading);
+   font-size: 1.5rem;
+   line-height: 1.3;
+}
