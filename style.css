@@ -681,8 +681,8 @@ a {
 }
 
 /* Trait décoratif sous le sous-titre */
-.book-age-header__eyebrow::after {
-   content: ""
+.book-page-header__eyebrow::after {
+   content: "";
    display: block;
    width: 40px;
    height: 2px;
