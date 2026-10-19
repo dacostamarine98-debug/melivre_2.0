@@ -427,3 +427,33 @@ a {
    font-size: 0.9rem;
    line-height: 1.5;
 }
+
+/* Nouveautés */
+.new-releases {
+   max-width: var(--content-max-width);
+   margin: 0 auto;
+   padding: 2.5rem 2rem;
+   scroll-margin-top: 2rem;
+}
+
+.new-releases__heading {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 2rem;
+   margin-bottom: 1.5rem;
+}
+
+.new-releases__title {
+   margin: 0;
+   font-family: var(--font-heading);
+   font-size: 2rem;
+   font-weight: 600;
+   line-height: 1.2;
+}
+
+.new-releases__introduction {
+   max-width: 35ch;
+   margin: 0;
+   font-size: 0.95rem;
+}
