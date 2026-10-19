@@ -577,3 +577,60 @@ a {
    text-decoration: underline;
    text-underline-offset: 0.2rem;
 }
+
+/* En-tête des fiches */
+.book-page-header {
+   padding: 2rem 2rem 0;
+   text-align: center;
+}
+
+.book-page-header__brand {
+   display: inline-flex;
+   flex-direction: column;
+   align-items: center;
+   color: var(--color-forest);
+   text-decoration: none;
+}
+
+.book-page-header__logo {
+   width: 80px;
+}
+
+.book-page-header__name {
+   font-family: var(--font-heading);
+   font-size: 2.5rem;
+   line-height: 1.2;
+}
+
+.book-page-header__eyebrow {
+   margin: 1rem 0;
+   font-size: 0.8rem;
+   letter-spacing: 0.18rem;
+   text-transform: uppercase;
+}
+
+.book-page-header__heading {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1.5rem;
+   margin: 0;
+   color: var(--color-forest);
+   font-family: var(--font-heading);
+   font-size: 2rem;
+   line-height: 1.3;
+}
+
+/* Branches fleuries décoratives */
+.book-page-header__heading::before,
+.book-page-header__heading::after {
+   content: "";
+   width: 90px;
+   height: 60px;
+   flex-shrink: 0;
+   background: url("fiche-branche-doree-v2.png") center / contain no-repeat;
+}
+
+.book-page-header__heading::after {
+   transform: scaleX(-1);
+}
