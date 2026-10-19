@@ -638,3 +638,14 @@ a {
 .book-page-header__heading::after {
    transform: scaleX(-1);
 }
+
+/* Genre affiché dans les fiches */
+.book-details__content .book-card__genre {
+   display: inline-block;
+   margin-bottom: 1rem;
+   padding: 0.35rem 1rem;
+   border-radius: 999px;
+   background-color: var(--color-lilac);
+   color: var(--color-plum);
+   font-size: 0.95rem;
+}
