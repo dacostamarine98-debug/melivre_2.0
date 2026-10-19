@@ -505,3 +505,10 @@ a {
    margin: 0;
    font-size: 0.85rem;
 }
+
+/* Couvertures des livres */
+.book-card__cover {
+   width: 100%;
+   height: 350px;
+   object-fit: contain;
+}
