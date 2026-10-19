@@ -457,3 +457,51 @@ a {
    margin: 0;
    font-size: 0.95rem;
 }
+
+/* Grille des nouveautés */
+.new-releases__grid {
+   display: grid;
+   grid-template-columns: repeat(4, minmax(0, 1fr));
+   gap: 1.5rem;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.new-releases__item {
+   min-width: 0;
+}
+
+/* Cartes des livres */
+.book-card {
+   height: 100%;
+}
+
+.book-card__content {
+   padding-block: 1rem;
+}
+
+.book-card__genre {
+   margin: 0 0 0.5rem;
+   color: var(--color-forest);
+   font-size: 0.85rem;
+   font-weight: 500;
+}
+
+.book-card__title {
+   margin: 0 0 0.5rem;
+   font-family: var(--font-heading);
+   font-size: 1.25rem;
+   font-weight: 600;
+   line-height: 1.3;
+}
+
+.book-card__author {
+   margin: 0 0 0.75rem;
+   font-size: 0.95rem;
+}
+
+.book-card__release {
+   margin: 0;
+   font-size: 0.85rem;
+}
