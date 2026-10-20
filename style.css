@@ -697,3 +697,10 @@ a {
    font-family: var(--font-heading);
    font-size: 1.2rem;
 }
+
+/* Phrase d'accroche du livre */
+.book-details__hook {
+   margin: 1rem 0 1.5rem;
+   font-size: 1.25rem;
+   line-height: 1.5;
+}
