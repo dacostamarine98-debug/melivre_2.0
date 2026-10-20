@@ -135,7 +135,7 @@ a {
    margin: 0 auto;
    padding: 2rem 2rem 3rem;
 }
-/* Fond lilas au bord irrégulier */
+/* Fond lilas aux ondulations douces */
 .hero::before {
    content: "";
    position: absolute;
@@ -143,20 +143,9 @@ a {
    right: 0;
    bottom: 0;
    width: 52%;
-   background-color: var(--color-lilac);
-   clip-path: polygon(
-      76% 0,
-      100% 0,
-      100% 100%,
-      0 100%,
-      2% 89%,
-      13% 77%,
-      20% 65%,
-      32% 54%,
-      39% 42%,
-      52% 29%,
-      61% 17%
-   );
+   background-image: url("fond-accueil-lilas.svg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
    z-index: -1;
 }
 
