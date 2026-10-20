@@ -689,3 +689,11 @@ a {
    margin: 0.75rem auto 0;
    background-color: var(--color-gold);
 }
+
+/* Bouton principal des fiches */
+.book-details__content .button--primary {
+   min-height: 56px;
+   padding: 1rem 2rem;
+   font-family: var(--font-heading);
+   font-size: 1.2rem;
+}
