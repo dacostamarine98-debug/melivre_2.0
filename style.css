@@ -179,6 +179,14 @@ a {
    gap: 1rem 1.5rem;
 }
 
+/* Bouton principal de l'accueil */
+.hero__actions .button--primary {
+   min-height: 56px;
+   padding: 1rem 2rem;
+   font-family: var(--font-heading);
+   font-size: 1.2rem;
+}
+   
 .hero__explore-link {
    padding-block: 0.75rem;
    text-underline-offset: 0.3rem;
