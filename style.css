@@ -398,7 +398,7 @@ a {
 .genres__toggle {
    display: flex;
    width: fit-content;
-   margin: 1.5rem quto 0;
+   margin: 1.5rem auto 0;
 }
 
 .genres__item {
