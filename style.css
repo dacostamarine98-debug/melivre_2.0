@@ -135,7 +135,7 @@ a {
    margin: 0 auto;
    padding: 2rem 2rem 3rem;
 }
-/* Fond décoratif derrière les livres */
+/* Fond lilas au bord irrégulier */
 .hero::before {
    content: "";
    position: absolute;
@@ -144,7 +144,19 @@ a {
    bottom: 0;
    width: 52%;
    background-color: var(--color-lilac);
-   border-top-left-radius: 100% 85%;
+   clip-path: polygon(
+      76% 0,
+      100% 0,
+      100% 100%,
+      0 100%,
+      2% 89%,
+      13% 77%,
+      20% 65%,
+      32% 54%,
+      39% 42%,
+      52% 29%
+      61% 17%
+   );
    z-index: -1;
 }
 
