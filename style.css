@@ -705,7 +705,7 @@ a {
 
 /* Informations sur les contenus sensibles */
 .book-details__notice {
-   display: inline-block;
+   display: inline-flex;
    align-items: center;
    gap: 0.65rem;
    margin: 0 0 1rem;
