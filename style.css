@@ -706,11 +706,22 @@ a {
 /* Informations sur les contenus sensibles */
 .book-details__notice {
    display: inline-block;
+   align-items: center;
+   gap: 0.65rem;
    margin: 0 0 1rem;
    padding: 0.5rem 1rem;
    border-radius: 999px;
    background-color: rgb(182 138 67 / 12%);
    font-size: 0.9rem;
+}
+
+/* Icône devant la mention */
+.book-details__notice::before {
+   content: "";
+   width: 24px;
+   height: 24px;
+   flex-shrink: 0;
+   background: url("fiche-avertissement.png") center / contain no-repeat;
 }
 
 /* Bouton principal des fiches */
