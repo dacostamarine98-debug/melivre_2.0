@@ -721,7 +721,7 @@ a {
    width: 24px;
    height: 24px;
    flex-shrink: 0;
-   background: url("fiche-avertissement.png") center / contain no-repeat;
+   background: url("fiche-avertissement.png?v=2") center / contain no-repeat;
 }
 
 /* Bouton principal des fiches */
