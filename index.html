@@ -167,7 +167,7 @@
       </p>
     </div>
 
-    <ul class="genres__grid">
+    <ul id="genres-grid" class="genres__grid">
       <!-- Romance -->
       <li id="genre-romance" class="genres__item">
         <article class="genre-card">
@@ -744,6 +744,17 @@
         </article>
       </li>
     </ul>
+
+    <!-- Affichage des autres univers -->
+    <button
+      class="button button--primary genres__toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="genres-grid"
+      hidden
+    >
+      Voir tous les univers
+    </button>
   </section>
 
   <!-- Nouveautés -->
