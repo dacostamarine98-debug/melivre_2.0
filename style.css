@@ -36,6 +36,7 @@ body {
   font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.6;
+   overflow-x: clip;
 }
 
 img {
@@ -65,6 +66,8 @@ a {
    max-width: var(--content-max-width);
    margin: 0 auto;
    padding: 1.5rem 2rem;
+   position: relative;
+   z-index: 2;
 }
 
 .site-brand {
@@ -134,13 +137,13 @@ a {
    max-width: var(--content-max-width);
    margin: 0 auto;
    padding: 2rem 2rem 3rem;
-   overflow: hidden;
+   overflow: visible;
 }
 /* Fond lilas aux ondulations douces */
 .hero::before {
    content: "";
    position: absolute;
-   top: 0;
+   top: -9rem;
    right: 0;
    bottom: 0;
    width: 52%;
@@ -199,10 +202,10 @@ a {
 }
 
 .hero__illustration {
-   width: 120%;
+   width: 140%;
    max-width: none;
    align-self: end;
-   transform: translateY(calc(3rem + 1.6%));
+   transform: translateY(calc(4rem + 1.6%));
 }
 
 /* ==============================
@@ -244,6 +247,7 @@ a {
    overflow: hidden;
    background-color: var(--color-forest);
    color: var(--color-cream);
+   z-index: 1;
 }
 
 /* Feuillages décoratifs du bandeau */
