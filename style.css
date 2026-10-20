@@ -643,6 +643,18 @@ a {
    line-height: 1.4;
 }
 
+/* Informations d'édition et lectorat */
+.book-details__metadata {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.5rem 1.5rem;
+   margin: 0 0 1.5rem;
+   font-size: 0.9rem;
+}
+
+.book-details__metadata p {
+   margin: 0;
+}
 /* Phrase d'accroche du livre */
 .book-details__hook {
    margin: 1rem 0 1.5rem;
