@@ -142,7 +142,7 @@ a {
 }
 
 .header-actions__button {
-   display: inline-block;
+   display: inline-flex;
    align-items: center;
    justify-content: center;
    gap: 0.6rem;
