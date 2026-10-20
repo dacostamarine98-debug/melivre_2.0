@@ -638,7 +638,9 @@ a {
 
 .book-details__author {
    margin: 0 0 1.5rem;
-   font-size: 1.2rem;
+   font-family: var(--font-heading);
+   font-size: 1.3rem;
+   line-height: 1.4;
 }
 
 /* Phrase d'accroche du livre */
