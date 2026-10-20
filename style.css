@@ -703,6 +703,16 @@ a {
    background: url("fiche-etoile-doree-v2.png") center / contain no-repeat;
 }
 
+/* Informations sur les contenus sensibles */
+.book-details__notice {
+   display: inline-block;
+   margin: 0 0 1rem;
+   padding: 0.5rem 1rem;
+   border-radius: 999px;
+   background-color: rgb(182 138 67 / 12%);
+   font-size: 0.9rem;
+}
+
 /* Bouton principal des fiches */
 .book-details__content .button--primary {
    min-height: 56px;
