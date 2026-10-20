@@ -144,9 +144,9 @@ a {
    content: "";
    position: absolute;
    top: -9rem;
-   right: 0;
+   left: 48%;
    bottom: 0;
-   width: 52%;
+   right: min(0px, calc((var(--content-max-width) - 100vw) / 2));
    background-image: url("fond-accueil-lilas.svg");
    background-repeat: no-repeat;
    background-size: 100% 100%;
